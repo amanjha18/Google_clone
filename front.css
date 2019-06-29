@@ -1,0 +1,109 @@
+.main{
+    display: flex;
+    justify-content: flex-end;	}
+.f1{
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.f2{
+    font-size: 22px;
+    margin-right: 20px;
+    color: #808080;
+    margin-top: 5px;
+}
+.f3{
+    font-size: 35px;
+    margin-right: 20px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.googlelogo{
+    text-align: center;
+    margin-top: 17vh;
+}
+input[type="text"]{
+    width: 600px;
+    /*height: 45px;*/
+    border-radius: 100px;
+    border: 2px solid #e5e5e5;
+    /*border-top-color: red;
+    border-bottom-color: blue;
+    border-left: yellow;
+    border-right-color: yellow;*/
+    text-shadow: 5px black;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px;
+}
+#mic{
+    width: 15px;
+    cursor: pointer;
+
+}
+.mic{
+    margin-top: -40px;
+    text-align: center;
+    margin-left: 550px;
+}
+button{
+    background-color: #f2f2f2;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #808080;
+}
+button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.languages a{
+    color: blue;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#text{
+    color: black;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #808080;
+    font-size: 15px;
+}
+.foot1{
+    padding: 10px;
+    display: block;
+    border-top: 1px solid #e5e5e5;
+}
+.foot2{
+    padding: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+.footer a{
+    margin-left: 5px;
+    color: #808080;
+}
+.foot3{
+    margin-top: -25px;
+    text-align: right;
+}
